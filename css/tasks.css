@@ -1,0 +1,41 @@
+.tasks {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.tasks__button {
+    color: white;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    border: none;
+}
+
+.tasks__button--toggleDone {
+    background: green;
+}
+.tasks__button--toggleDone:hover {
+    cursor: pointer;
+}
+
+.tasks__button--remove {
+    background: red;
+}
+
+.tasks__button--remove:hover {
+    cursor: pointer;
+}
+
+.tasks__item {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-gap: 10px;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+.tasks__content--done {
+    text-decoration: line-through;
+}
