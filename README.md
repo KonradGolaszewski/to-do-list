@@ -7,7 +7,7 @@ Below is a short presentation of how the application works on the Iphone 12 Pro.
 
 ## Demo
 
-
+https://konradgolaszewski.github.io/to-do-list/
 
 ## Tech used:
 - HTML
